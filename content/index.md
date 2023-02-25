@@ -8,4 +8,4 @@ numberOfLatestPostsToShow: 3
 
 Hello
 
-{% image "./natasha-pavey.jpeg", "Natasha Pavey" %}
+{% image "./index/natasha-pavey.jpeg", "Natasha Pavey" %}

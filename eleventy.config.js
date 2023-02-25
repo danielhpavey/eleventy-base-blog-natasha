@@ -18,6 +18,12 @@ module.exports = function(eleventyConfig) {
 	// Run Eleventy when these files change:
 	// https://www.11ty.dev/docs/watch-serve/#add-your-own-watch-targets
 
+	// Tailwind
+	eleventyConfig.addWatchTarget('./tailwind.config.js')
+	eleventyConfig.addWatchTarget('./public/css/tailwind.css')
+  
+	eleventyConfig.addPassthroughCopy({ './_tmp/style.css': './style.css' })
+
 	// Watch content images for the image pipeline.
 	eleventyConfig.addWatchTarget("content/**/*.{svg,webp,png,jpeg}");
 
