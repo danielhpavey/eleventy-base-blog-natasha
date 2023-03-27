@@ -7,9 +7,8 @@ numberOfLatestPostsToShow: 3
 ---
 
 
-I am an enthusiastic and dedicated early career creative producer who has been training in the performing arts from a young age but recently found a love for producing and programming.
+Natasha (she/her) is an early career producer from the South West based in London. 
 
-I am also a passionate youth climate campaigner who has been organising within the climate movement from the age of 16. Through this, I have gained extensive communications, facilitation and team building skills.
+She is  also a climate justice activist who has been organising within the climate movement from a young age. 
 
-I strive to create new and diverse theatre that breaks boundaries, passes the mic and has social + climate justice at its core. ✨
-I am currently in my final year studying BA (Hons) Theatre & Social Change at Rose Bruford.
+In her creative work, she strives to combine her climate activism with my training in theatre as a tool for change.
