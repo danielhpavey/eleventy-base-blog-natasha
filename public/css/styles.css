@@ -13,11 +13,11 @@ body {
 
   label .menu {
     position: absolute;
-    right: 12px;
+    right: 0px;
     top: 0px;
     z-index: 100;
-    width: 30px;
-    height: 30px;
+    width: 42px;
+    height: 42px;
     background: #fff;
     border-radius: 50% 50% 50% 50%;
     -webkit-transition: .5s ease-in-out;
@@ -29,7 +29,7 @@ body {
   label .hamburger {
     position: absolute;
     top: 0px;
-    left: 0px;
+    right: 12px;
     width: 30px;
     height: 2px;
     background: #000;
