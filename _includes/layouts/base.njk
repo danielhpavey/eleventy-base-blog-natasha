@@ -54,7 +54,7 @@
 			{#- Read more about `eleventy-navigation` at https://www.11ty.dev/docs/plugins/navigation/ #}
 
 		</header>
-		<img src="/images/natasha-pavey.jpeg" class="max-w-2xl mx-auto w-full" />
+		<img src="/images/natasha-pavey.jpeg" class="max-w-2xl mx-auto w-full" alt="{{ title or metadata.title }}" />
 
 		<main id="skip" class="p-6 flow max-w-4xl mx-auto">
 			{{ content | safe }}
