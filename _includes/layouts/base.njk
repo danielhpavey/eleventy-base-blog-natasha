@@ -40,8 +40,8 @@
 			<label>
 			<input type="checkbox">
 			<span class="menu"> <span class="hamburger"></span> </span>
-			<ul class="flex flex-col md:flex-row justify-center">
-			{%- for entry in collections.all | eleventyNavigation %} <li class="text-center ml-6 p-6 hover:underline hover:-mt-1 transition-all duration-700"><a href="{{ entry.url }}"{% if entry.url == page.url %} aria-current="page"{% endif %}>{{ entry.title }}</a></li>
+			<ul class="flex flex-col md:flex-row justify-items-start">
+			{%- for entry in collections.all | eleventyNavigation %} <li class="text-center ml-6 p-6 hover:underline"><a href="{{ entry.url }}"{% if entry.url == page.url %} aria-current="page"{% endif %}>{{ entry.title }}</a></li>
 			{%- endfor %}
 			</ul>
 			</label>

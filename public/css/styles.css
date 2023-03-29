@@ -6,15 +6,19 @@
     margin-top: var(--flow-space, 1em);
   }
   
+body {
+  overflow-x: hidden;
+  position: relative;
+}
 
   label .menu {
     position: absolute;
-    right: -100px;
-    top: -100px;
+    right: 12px;
+    top: 0px;
     z-index: 100;
-    width: 200px;
-    height: 200px;
-    background: #FFF;
+    width: 30px;
+    height: 30px;
+    background: #fff;
     border-radius: 50% 50% 50% 50%;
     -webkit-transition: .5s ease-in-out;
     transition: .5s ease-in-out;
@@ -24,8 +28,8 @@
   
   label .hamburger {
     position: absolute;
-    top: 135px;
-    left: 50px;
+    top: 0px;
+    left: 0px;
     width: 30px;
     height: 2px;
     background: #000;
@@ -80,7 +84,7 @@
   label ul {
     z-index: 200;
     position: absolute;
-    top: 50%;
+    top: 50vw;
     left: 50%;
     -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
