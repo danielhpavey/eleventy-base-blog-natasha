@@ -36,14 +36,18 @@
  		 <link href="/css/styles.css" rel="stylesheet">
 	</head>
 	<body class="text-2xl font-inter flow text-slate-600 bg-slate-50">
+		<nav class="mb-6 ">
+			<label>
+			<input type="checkbox">
+			<span class="menu"> <span class="hamburger"></span> </span>
+			<ul class="flex flex-col md:flex-row justify-center">
+			{%- for entry in collections.all | eleventyNavigation %} <li class="text-center ml-6 p-6 hover:underline hover:-mt-1 transition-all duration-700"><a href="{{ entry.url }}"{% if entry.url == page.url %} aria-current="page"{% endif %}>{{ entry.title }}</a></li>
+			{%- endfor %}
+			</ul>
+			</label>
+		</nav>
 		<header class="px-6">
-			<nav class="mb-6">
-				<ul class="flex justify-center">
-				{%- for entry in collections.all | eleventyNavigation %}
-					<li class="ml-6 hover:underline"><a href="{{ entry.url }}"{% if entry.url == page.url %} aria-current="page"{% endif %}>{{ entry.title }}</a></li>
-				{%- endfor %}
-				</ul>
-			</nav>
+
 
 			<a href="/" class="home-link font-lily text-8xl block text-center">{{ metadata.title }}</a>
 
