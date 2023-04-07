@@ -51,6 +51,12 @@ module.exports = function(eleventyConfig) {
 		return DateTime.fromJSDate(dateObj, {zone: 'utc'}).toFormat('yyyy-LL-dd');
 	});
 
+	eleventyConfig.addFilter('categoryFilter', (collection, category) => {
+		if (!category) return collection;
+		  const filtered = collection.filter(item => item.data.category == category)
+		  return filtered;
+	});
+
 	// Get the first `n` elements of a collection.
 	eleventyConfig.addFilter("head", (array, n) => {
 		if(!Array.isArray(array) || array.length === 0) {

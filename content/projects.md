@@ -6,5 +6,4 @@ eleventyNavigation:
 ---
 # Projects
 
-{% set postslist = collections.posts %}
-{% include "postslist.njk" %}
+[Climate Justice and Education Activism](/projects/climate-justice-education-activism)

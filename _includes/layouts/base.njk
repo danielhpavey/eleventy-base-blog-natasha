@@ -35,7 +35,10 @@
 		{#- Render the CSS bundle usi	ng Inlined CSS (for the fastest site performance in production) #}
  		 <link href="/css/styles.css" rel="stylesheet">
 	</head>
-	<body class="text-2xl font-inter flow text-slate-600 bg-slate-50">
+	<body class="text-2xl font-inter text-slate-600 bg-slate-50">
+	
+		<header class="px-6 mb-6">
+
 		<nav class="">
 			<label>
 			<input type="checkbox">
@@ -46,10 +49,8 @@
 			</ul>
 			</label>
 		</nav>
-		<header class="px-6">
 
-
-			<a href="/" class="home-link font-lily text-8xl block text-center">{{ metadata.title }}</a>
+			<a href="/" class="home-link font-lily text-8xl block text-center pt-6">{{ metadata.title }}</a>
 
 			{#- Read more about `eleventy-navigation` at https://www.11ty.dev/docs/plugins/navigation/ #}
 
