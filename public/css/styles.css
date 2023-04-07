@@ -57,6 +57,10 @@ body {
   
   label input { display: none; }
   
+  label .menu ul {
+    right: -100%;
+  }
+
   label input:checked + .menu {
     box-shadow: 0 0 0 100vw #FFF, 0 0 0 100vh #FFF;
     border-radius: 0;
@@ -79,7 +83,7 @@ body {
     top: 0;
   }
   
-  label input:checked + .menu + ul { opacity: 1; }
+  label input:checked + .menu + ul { opacity: 1; right:auto; }
   
   label ul {
     z-index: 200;
