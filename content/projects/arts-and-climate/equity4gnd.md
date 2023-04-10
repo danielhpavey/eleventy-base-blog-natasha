@@ -1,7 +1,7 @@
 ---
-title: Theatre Green Captains
+title: Equity4GND
 date: 2023-03-30
 draft: false
 category: arts-and-climate
 ---
-# Theatre Green Captains
+# Equity4GND
