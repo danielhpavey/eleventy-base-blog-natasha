@@ -50,7 +50,9 @@
 			</label>
 		</nav>
 
-			<a href="/" class="home-link font-lily text-8xl block text-center pt-6">{{ metadata.title }}</a>
+			<h1 class="max-w-4xl mx-auto">
+			<a href="/" class="home-link font-lily text-8xl block mx-auto text-center pt-6">{{ metadata.title }}</a>
+			</h1>
 
 			{#- Read more about `eleventy-navigation` at https://www.11ty.dev/docs/plugins/navigation/ #}
 
@@ -61,7 +63,20 @@
 			{{ content | safe }}
 		</main>
 
-		<footer></footer>
+		<footer class="my-6">
+		
+		<div class="flex flex-row justify-center space-x-20">
+		<a href="#">
+			<img src="images/email.png" alt="Email" class="" />
+		</a>
+		<a href="#">
+			<img src="images/facebook.png" alt="Facebook" class=""/>
+		</a>
+		<a href="#">
+			<img src="images/instagram.png" alt="Instagram" class="" />
+		</a>
+		</div>
+		</footer>
 
 		<!-- Current page: {{ page.url | htmlBaseUrl }} -->
 	</body>

@@ -13,8 +13,8 @@ body {
 
   label .menu {
     position: absolute;
-    right: 0px;
-    top: 0px;
+    right: 6px;
+    top: 12px;
     z-index: 100;
     width: 42px;
     height: 42px;
