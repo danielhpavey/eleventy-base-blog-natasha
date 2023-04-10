@@ -7,20 +7,20 @@ eleventyNavigation:
 # Projects
 
 <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
-    <div>
+    <div class="relative">
     <a href="/projects/climate-justice-education-activism">
-    <img src="https://placehold.co/600x400/orange/white" />
-    <h2>Climate Justice and Education Activism</h2>
+    <img src="https://picsum.photos/seed/flowers/500" />
+    <h2 class="absolute bottom-16 inset-x-0 backdrop-blur-xl p-2 text-center text-white">Climate Justice and Education Activism</h2>
     </a>
     </div>
-    <div>
+    <div class="relative">
     <a href="/projects/arts-and-climate">
-     <img class="block" src="https://placehold.co/600x400/blue/white" />
-     <h2>Arts + Climate</h2>
+     <img class="block" src="https://picsum.photos/seed/cakes/500" />
+     <h2 class="absolute bottom-16 inset-x-0 backdrop-blur-xl p-2 text-center text-white">Arts + Climate</h2>
     </div>
-    <div>
+    <div class="relative">
     <a href="/projects/arts">
-     <img src="https://placehold.co/600x400/green/white" />
-     <h2>Arts</h2>
+     <img src="https://picsum.photos/seed/bananna/500" />
+     <h2 class="absolute bottom-16 inset-x-0 backdrop-blur-xl p-2 text-center text-white">Arts</h2>
     </div>
 </div>
