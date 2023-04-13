@@ -82,7 +82,7 @@ body {
     top: 0;
   }
   
-  label input:checked + .menu + ul { opacity: 1; left:50%; @apply flex; }
+  label input:checked + .menu + ul { opacity: 1; left:50%; @apply flex w-auto; }
   
   label ul {
     left: 200%;
