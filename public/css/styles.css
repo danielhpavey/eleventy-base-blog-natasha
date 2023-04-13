@@ -82,13 +82,13 @@ body {
     top: 0;
   }
   
-  label input:checked + .menu + ul { opacity: 1; left:50%; }
+  label input:checked + .menu + ul { opacity: 1; left:50%; @apply flex; }
   
   label ul {
     left: 200%;
     z-index: 200;
     position: absolute;
-    top: 25vh;
+    top: 40vh;
     -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     opacity: 0;
