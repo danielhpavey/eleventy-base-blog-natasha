@@ -57,7 +57,13 @@
 			{#- Read more about `eleventy-navigation` at https://www.11ty.dev/docs/plugins/navigation/ #}
 
 		</header>
+
+		{%- if '/project' in page.url -%}
+		{%- elif '/about' in page.url -%}
+		<img src="/images/natasha-pavey-2.jpg" class="max-w-2xl mx-auto w-full" alt="{{ title or metadata.title }}" />
+		{%- else -%}
 		<img src="/images/natasha-pavey.jpeg" class="max-w-2xl mx-auto w-full" alt="{{ title or metadata.title }}" />
+		{%- endif -%}
 
 		<main id="skip" class="p-6 flow max-w-4xl mx-auto">
 			{{ content | safe }}
@@ -76,6 +82,9 @@
 			<img src="/images/instagram.png" alt="Instagram" class="" />
 		</a>
 		</div>
+		<p class="text-sm mt-20 text-center">
+		&copy; Natasha Pavey. All right reserved.
+		</p>
 		</footer>
 
 		<!-- Current page: {{ page.url | htmlBaseUrl }} -->
