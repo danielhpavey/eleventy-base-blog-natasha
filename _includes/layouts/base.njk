@@ -58,12 +58,12 @@
 
 		</header>
 
-		{%- if '/project' in page.url -%}
-		{%- elif '/about' in page.url -%}
+		{% if page.url.slice(1, 9) == 'projects' %}
+		{% elif page.url.slice(1, 6) == 'about' %}
 		<img src="/images/natasha-pavey-2.jpg" class="max-w-2xl mx-auto w-full" alt="{{ title or metadata.title }}" />
-		{%- else -%}
+		{% else %}
 		<img src="/images/natasha-pavey.jpeg" class="max-w-2xl mx-auto w-full" alt="{{ title or metadata.title }}" />
-		{%- endif -%}
+		{% endif %}
 
 		<main id="skip" class="p-6 flow max-w-4xl mx-auto">
 			{{ content | safe }}
