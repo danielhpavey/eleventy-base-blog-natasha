@@ -3,8 +3,8 @@
 	"version": "8.0.0",
 	"description": "A starter repository for a blog web site using the Eleventy site generator.",
 	"scripts": {
-		"build": "eleventy & tailwindcss -i ./public/css/styles.css -o ./_site/css/styles.css --minify",
-		"dev": "eleventy --serve & tailwindcss -i ./public/css/styles.css -o ./_site/css/styles.css --watch",
+		"build": "eleventy & tailwindcss -i ./public/css/tailwind.css -o ./_site/css/styles.css --minify",
+		"dev": "eleventy --serve & tailwindcss -i ./public/css/tailwind.css -o ./_site/css/styles.css --watch",
 		"debug": "DEBUG=Eleventy* npx @11ty/eleventy",
 		"debugstart": "DEBUG=Eleventy* npx @11ty/eleventy --serve --quiet",
 		"benchmark": "DEBUG=Eleventy:Benchmark* npx @11ty/eleventy",
