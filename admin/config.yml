@@ -4,9 +4,19 @@ backend:
 media_folder: "public/images"
 public_folder: "public"
 collections:
-  - name: "projects/arts-and-climate"
-    label: "Projects Arts & Climate"
+  - name: "projects-arts-and-climate"
+    label: "Projects - Arts & Climate"
     folder: "content/projects/arts-and-climate"
+    create: true
+    slug: "---"
+    fields:
+      - { label: "title", name: "title", widget: "string" }
+      - { label: "date", name: "date", widget: "date", format: 'YYYY-MM-DD' }
+      - { label: "category", name: "category", widget: "list" }
+      - { label: "body", name: "body", widget: "markdown" }
+    - name: "projects-arts"
+    label: "Projects - Arts"
+    folder: "content/projects/arts"
     create: true
     slug: "---"
     fields:
