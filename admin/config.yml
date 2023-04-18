@@ -4,9 +4,9 @@ backend:
 media_folder: "public/images"
 public_folder: "public"
 collections:
-  - name: "projects"
-    label: "Projects"
-    folder: "content"
+  - name: "projects/arts-and-climate"
+    label: "Projects Arts & Climate"
+    folder: "content/projects/arts-and-climate"
     create: true
     slug: "---"
     fields:
