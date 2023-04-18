@@ -5,8 +5,8 @@ media_folder: "public/images"
 public_folder: "public"
 collections:
   - name: "projects"
-    label: "Projects Arts & Climate"
-    folder: "content/projects/arts-and-climate"
+    label: "Projects"
+    folder: "content/projects/"
     create: true
     slug: "---"
     fields:
