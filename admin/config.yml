@@ -4,9 +4,9 @@ backend:
 media_folder: "public/images"
 public_folder: "public"
 collections:
-  - name: "blog"
-    label: "Blog"
-    folder: "projects"
+  - name: "projects"
+    label: "Projects"
+    folder: "content/projects"
     create: true
     slug: "---"
     fields:
