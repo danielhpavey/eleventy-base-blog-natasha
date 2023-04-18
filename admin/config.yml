@@ -11,26 +11,27 @@ collections:
         name: "home"
         file: "content/index.md"
         fields:
-          - { label: "title", name: "title", widget: "string" }
-          - { label: "date", name: "date", widget: "date", format: 'YYYY-MM-DD' }
-          - { label: "category", name: "category", widget: "list" }
           - { label: "body", name: "body", widget: "markdown" }
       - label: "About Page"
         name: "about"
         file: "content/about.md"
         fields:
-          - { label: "title", name: "title", widget: "string" }
-          - { label: "date", name: "date", widget: "date", format: 'YYYY-MM-DD' }
-          - { label: "category", name: "category", widget: "list" }
           - { label: "body", name: "body", widget: "markdown" }
       - label: "Contact Page"
         name: "contact"
         file: "content/contact.md"
         fields:
-          - { label: "title", name: "title", widget: "string" }
-          - { label: "date", name: "date", widget: "date", format: 'YYYY-MM-DD' }
-          - { label: "category", name: "category", widget: "list" }
           - { label: "body", name: "body", widget: "markdown" }
+  - name: "projects-arts"
+    label: "Projects - Arts"
+    folder: "content/projects/arts"
+    create: true
+    slug: "---"
+    fields:
+      - { label: "title", name: "title", widget: "string" }
+      - { label: "date", name: "date", widget: "date", format: 'YYYY-MM-DD' }
+      - { label: "category", name: "category", widget: "list" }
+      - { label: "body", name: "body", widget: "markdown" }
   - name: "projects-arts-and-climate"
     label: "Projects - Arts & Climate"
     folder: "content/projects/arts-and-climate"
@@ -41,9 +42,9 @@ collections:
       - { label: "date", name: "date", widget: "date", format: 'YYYY-MM-DD' }
       - { label: "category", name: "category", widget: "list" }
       - { label: "body", name: "body", widget: "markdown" }
-  - name: "projects-arts"
-    label: "Projects - Arts"
-    folder: "content/projects/arts"
+  - name: "projects-climate-justice"
+    label: "Projects - Climate Justice"
+    folder: "content/projects/climate-justice"
     create: true
     slug: "---"
     fields:
