@@ -11,8 +11,7 @@ module.exports = function(eleventyConfig) {
 	// Copy the contents of the `public` folder to the output folder
 	// For example, `./public/css/` ends up in `_site/css/`
 	eleventyConfig.addPassthroughCopy({
-		"./public/": "/",
-		"./node_modules/prismjs/themes/prism-okaidia.css": "/css/prism-okaidia.css"
+		"./public/": "/"
 	})
 
 	eleventyConfig.addPassthroughCopy("admin/");
@@ -25,7 +24,7 @@ module.exports = function(eleventyConfig) {
 	eleventyConfig.addWatchTarget('./tailwind.config.js')
 	eleventyConfig.addWatchTarget('./public/css/tailwind.css')
   
-	eleventyConfig.addPassthroughCopy({ './_tmp/style.css': './style.css' })
+	// eleventyConfig.addPassthroughCopy({ './_tmp/style.css': './style.css' })
 
 	// Watch content images for the image pipeline.
 	eleventyConfig.addWatchTarget("content/**/*.{svg,webp,png,jpeg}");
