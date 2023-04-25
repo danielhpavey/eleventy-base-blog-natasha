@@ -6,6 +6,8 @@ const pluginSyntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 const pluginBundle = require("@11ty/eleventy-plugin-bundle");
 const pluginNavigation = require("@11ty/eleventy-navigation");
 const { EleventyHtmlBasePlugin } = require("@11ty/eleventy");
+const glob = require("glob-promise");
+
 
 module.exports = function(eleventyConfig) {
 	// Copy the contents of the `public` folder to the output folder
@@ -110,6 +112,25 @@ module.exports = function(eleventyConfig) {
 	// https://www.11ty.dev/docs/copy/#emulate-passthrough-copy-during-serve
 
 	// eleventyConfig.setServerPassthroughCopyBehavior("passthrough");
+
+
+	eleventyConfig.addCollection('images', async collectionApi => {
+
+		let files = await glob('./images/projects/*.*');
+		//Now filter to non thumb-
+		let images = files.filter(f => {
+			return f.indexOf('./img/thumb-') !== 0;
+		});
+
+		let collection = images.map(i => {
+			return {
+				path: i
+			}
+		});
+
+		return collection;
+
+	});
 
 	return {
 		// Control which files Eleventy will process
