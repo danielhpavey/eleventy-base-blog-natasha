@@ -3,6 +3,7 @@ title: Green New Deal Rising
 date: 2023-03-30
 category: climate-justice
 image: https://picsum.photos/seed/green/500
+gallery: green-new-deal-rising
 ---
 # Green New Deal Rising
 
