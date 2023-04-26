@@ -159,6 +159,20 @@ module.exports = function(eleventyConfig) {
 		return collection;
 	});
 
+	eleventyConfig.addCollection('people-and-planet', async collectionApi => {
+		let files = await glob('./public/images/projects/people-and-planet/*.*');
+		//Now filter to non thumb-
+		let images = files.filter(f => {
+			return f.indexOf('./img/thumb-') !== 0;
+		});
+		let collection = images.map(i => {
+			return {
+				path: i.replace("./public", "")
+			}
+		});
+
+		return collection;
+	});
 
 
 	return {
