@@ -114,22 +114,19 @@ module.exports = function(eleventyConfig) {
 	// eleventyConfig.setServerPassthroughCopyBehavior("passthrough");
 
 
-	eleventyConfig.addCollection('images', async collectionApi => {
-
-		let files = await glob('./images/projects/*.*');
+	eleventyConfig.addCollection('fridays-for-future', async collectionApi => {
+		let files = await glob('./public/images/projects/fridays-for-future/*.*');
 		//Now filter to non thumb-
 		let images = files.filter(f => {
 			return f.indexOf('./img/thumb-') !== 0;
 		});
-
 		let collection = images.map(i => {
 			return {
-				path: i
+				path: i.replace("./public", "")
 			}
 		});
 
 		return collection;
-
 	});
 
 	return {
