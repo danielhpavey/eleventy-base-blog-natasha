@@ -14,3 +14,4 @@ In the arts, I strive to bring these two passions together. I am an organiser wi
 
 I have extensive skills in performance (theatre, live art, dance and music), marketing, facilitation, communications, content creation, youth engagement, political organisation, de-escalation, working with a budget, event planning, management and team/ movement building.
 
+
