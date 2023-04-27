@@ -113,9 +113,8 @@ module.exports = function(eleventyConfig) {
 
 	// eleventyConfig.setServerPassthroughCopyBehavior("passthrough");
 
-
-	eleventyConfig.addCollection('fridays-for-future', async collectionApi => {
-		let files = await glob('./public/images/projects/fridays-for-future/*.*');
+	eleventyConfig.addCollection('project-images', async collectionApi => {
+		let files = await glob('./public/images/projects/**/*.*');
 		//Now filter to non thumb-
 		let images = files.filter(f => {
 			return f.indexOf('./img/thumb-') !== 0;
@@ -129,50 +128,6 @@ module.exports = function(eleventyConfig) {
 		return collection;
 	});
 
-	eleventyConfig.addCollection('green-new-deal-rising', async collectionApi => {
-		let files = await glob('./public/images/projects/green-new-deal-rising/*.*');
-		//Now filter to non thumb-
-		let images = files.filter(f => {
-			return f.indexOf('./img/thumb-') !== 0;
-		});
-		let collection = images.map(i => {
-			return {
-				path: i.replace("./public", "")
-			}
-		});
-
-		return collection;
-	});
-
-	eleventyConfig.addCollection('exeter-college-su', async collectionApi => {
-		let files = await glob('./public/images/projects/exeter-college-su/*.*');
-		//Now filter to non thumb-
-		let images = files.filter(f => {
-			return f.indexOf('./img/thumb-') !== 0;
-		});
-		let collection = images.map(i => {
-			return {
-				path: i.replace("./public", "")
-			}
-		});
-
-		return collection;
-	});
-
-	eleventyConfig.addCollection('people-and-planet', async collectionApi => {
-		let files = await glob('./public/images/projects/people-and-planet/*.*');
-		//Now filter to non thumb-
-		let images = files.filter(f => {
-			return f.indexOf('./img/thumb-') !== 0;
-		});
-		let collection = images.map(i => {
-			return {
-				path: i.replace("./public", "")
-			}
-		});
-
-		return collection;
-	});
 
 
 	return {
