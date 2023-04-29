@@ -117,3 +117,7 @@ label a {
     flex-direction: row;
   }
 }
+
+picture {
+  @apply max-w-2xl mx-auto w-full block;
+}

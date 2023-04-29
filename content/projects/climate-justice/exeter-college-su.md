@@ -1,8 +1,9 @@
 ---
 title: Exeter College Student Union
 date: 2023-04-25
-category:
-  - climate-justice
+draft: false
+category: climate-justice
+gallery: exeter-college-su
 ---
 # Exeter College Student Union
 
