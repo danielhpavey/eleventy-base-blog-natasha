@@ -3,7 +3,7 @@ title: Fridays for Future Exeter
 date: 2023-03-30
 draft: false
 category: climate-justice
-image: https://picsum.photos/seed/blue/500
+image: /images/projects/fridays-for-future/D1uSPhuXgAA32-1.jpeg
 gallery: fridays-for-future
 ---
 # Fridays for Future Exeter
