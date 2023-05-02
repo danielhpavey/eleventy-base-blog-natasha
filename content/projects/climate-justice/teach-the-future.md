@@ -3,7 +3,8 @@ title: Teach the Future
 date: 2023-03-30
 draft: false
 category: climate-justice
-image: https://picsum.photos/seed/purple/500
+image: /images/projects/teach-the-future/Screenshot%202023-04-23%2015.22.34.jpg
+gallery: teach-the-future
 ---
 # Teach the Future
 
