@@ -4,6 +4,8 @@ date: 2023-04-25
 draft: false
 category: climate-justice
 gallery: exeter-college-su
+image: /img/projects/exeter-college-su/IMG_5305.JPG
+
 ---
 # Exeter College Student Union
 

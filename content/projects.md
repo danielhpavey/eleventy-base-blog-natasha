@@ -9,7 +9,7 @@ eleventyNavigation:
 <div class="grid grid-cols-1 md:grid-cols-2 grid-rows-2 gap-4 grid-flow-row	">
     <div class="relative">
       <a href="/projects/climate-justice-education-activism">
-      <img src="https://picsum.photos/seed/flowers/500" />
+      {% image './img/projects/fridays-for-future/D1tt4_AXQAghfZo.jpeg', "" %}
       <h2 class="absolute bottom-0 h-24 inset-x-0 backdrop-blur-xl p-2 text-center text-white flex flex-column items-center">
         <span class="inline-block text-center w-full">Climate Justice and Education Activism</span>
         </h2>
@@ -17,7 +17,7 @@ eleventyNavigation:
     </div>
     <div class="relative">
       <a href="/projects/arts-and-climate">
-      <img class="block" src="https://picsum.photos/seed/cakes/500" />
+      {% image './img/EGnNRFMX4AAMgXn.jpeg', "" %}
       <h2 class="absolute bottom-0 h-24 inset-x-0 backdrop-blur-xl p-2 text-center text-white flex flex-column items-center">
         <span class="inline-block text-center w-full">Arts + Climate</span>
       </h2>
@@ -25,7 +25,7 @@ eleventyNavigation:
     </div>
       <div class="relative">
       <a href="/projects/arts">
-      <img src="https://picsum.photos/seed/goose/500" />
+      {% image './img/FONf8o_XMAIWh25.jpeg', "" %}
       <h2 class="absolute bottom-0 h-24 inset-x-0 backdrop-blur-xl p-2 text-center text-white flex flex-column items-center">
       <span class="inline-block text-center w-full">Arts</span>
       </h2>
