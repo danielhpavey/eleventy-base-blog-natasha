@@ -6,9 +6,10 @@ eleventyNavigation:
 numberOfLatestPostsToShow: 3
 ---
 
+Natasha Pavey (she/her) is an early career theatre maker, creative producer and climate justice activist from the South West. 
 
-Natasha (she/her) is an early career producer from the South West based in London. 
+She has been organising within the climate movement from a young age, from confronting politicians about the need for a Green New Deal to leading a local movement of young people to strike from school. 
 
-She is  also a climate justice activist who has been organising within the climate movement from a young age. 
+In her creative work, she strives to combine both her climate activism and her training in theatre as a tool for change. 
 
-In her creative work, she strives to combine her climate activism with my training in theatre as a tool for change.
+She is soon to graduate from BA (Hons) Theatre and Social Change at Rose Bruford College of Theatre and Performance in London.
