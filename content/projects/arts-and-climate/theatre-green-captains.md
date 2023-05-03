@@ -3,7 +3,8 @@ title: Theatre Green Captains
 date: 2023-03-30
 draft: false
 category: arts-and-climate
-image: https://picsum.photos/seed/buns/500
+image: /images/projects/theatre-green-captains/PXL_20220704_122633690.jpg
+gallery: theatre-green-captains
 ---
 # Theatre Green Captains
 

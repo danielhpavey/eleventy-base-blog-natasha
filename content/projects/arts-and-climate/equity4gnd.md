@@ -3,7 +3,8 @@ title: Equity4GND
 date: 2023-03-30
 draft: false
 category: arts-and-climate
-image: https://picsum.photos/seed/cakes/500
+image: /images/projects/equity4gnd/01HZlgBA-2.jpeg
+gallery: equity4gnd
 ---
 # Equity4GND
 

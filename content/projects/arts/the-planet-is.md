@@ -3,7 +3,8 @@ title: The Planet Is___
 date: 2023-03-30
 draft: false
 category: arts
-image: https://picsum.photos/seed/bees/500
+image: /images/projects/the-planet-is/The_Planet_Is_Poster.jpg
+gallery: the-planet-is
 ---
 # The Planet Is___
 
