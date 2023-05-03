@@ -3,7 +3,7 @@ title: Rose Bruford Student Union
 date: 2023-03-30
 draft: false
 category: climate-justice
-image: /images/Screenshot 2023-05-02 18.41.52.jpg
+image: /images/Screenshot_2023-05-02.jpg
 gallery: rose
 ---
 # Rose Bruford Student Union
