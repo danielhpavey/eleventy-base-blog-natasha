@@ -17,7 +17,7 @@ eleventyNavigation:
     </div>
     <div class="relative">
       <a href="/projects/arts-and-climate">
-      {% image './img/EGnNRFMX4AAMgXn.jpeg', "" %}
+      {% image './img/Copy_of_IMG_2598.JPG', "" %}
       <h2 class="absolute bottom-0 h-24 inset-x-0 backdrop-blur-xl p-2 text-center text-white flex flex-column items-center">
         <span class="inline-block text-center w-full">Arts + Climate</span>
       </h2>

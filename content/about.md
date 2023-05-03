@@ -14,4 +14,9 @@ In the arts, I strive to bring these two passions together. I am an organiser wi
 
 I have extensive skills in performance (theatre, live art, dance and music), marketing, facilitation, communications, content creation, youth engagement, political organisation, de-escalation, working with a budget, event planning, management and team/ movement building.
 
+## Mission Statement:
+
+I strongly believe that we, as artists and producers, have a massive role to play in the climate emergency. Media and structures of political power are failing us. I have experienced the arts to be a place to express anger and anxiety around this but also a place to find collective joy and hope. I’m grateful that I’ve had access to the arts to pull me out of low moments. I aspire to share this hope with others, ensure everyone has access to this and to equally turn this hope into action. I’ve seen it happen. I’ve helped initiate this change. I pride myself in pushing boundaries as an activist to encourage creative industries to take responsibility for their part to play. I will continue to dedicate myself and my career to doing this. 
+
+
 
