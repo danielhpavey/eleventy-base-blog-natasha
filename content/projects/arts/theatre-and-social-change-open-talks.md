@@ -3,7 +3,7 @@ title: Theatre and Social Change Open Talks
 date: 2023-03-30
 draft: false
 category: arts
-image: https://picsum.photos/seed/sun/500
+image: /images/projects/theatre-and-social-change-open-talks/FNkTWTgXoAcHWZn.jpeg
 gallery: theatre-and-social-change-open-talks
 ---
 # Theatre and Social Change Open Talks

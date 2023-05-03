@@ -3,7 +3,7 @@ title: The Planet Is___
 date: 2023-03-30
 draft: false
 category: arts
-image: /images/projects/the-planet-is/The_Planet_Is_Poster.jpg
+image: /images/projects/the-planet-is/IMG_2569.JPG
 gallery: the-planet-is
 ---
 # The Planet Is___

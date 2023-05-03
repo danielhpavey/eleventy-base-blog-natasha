@@ -3,7 +3,7 @@ title: Wonderful Forgotten Women
 date: 2023-03-30
 draft: false
 category: arts
-image: https://picsum.photos/seed/mars/500
+image: /images/projects/wonderful-forgotten-women/Screenshot_20230502-210752-min.jpg
 gallery: wonderful-forgotten-women
 ---
 # Wonderful Forgotten Women

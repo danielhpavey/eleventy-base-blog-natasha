@@ -3,7 +3,7 @@ title: Tramshed Found Arts Festival
 date: 2023-03-30
 draft: false
 category: arts
-image: https://picsum.photos/seed/stars/500
+image: /images/projects/tramshed/Screenshot_20230502-205527.jpg
 gallery: tramshed
 ---
 # Tramshed Found Arts Festival

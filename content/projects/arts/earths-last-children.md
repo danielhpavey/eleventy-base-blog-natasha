@@ -3,7 +3,7 @@ title: Earth's Last Children
 date: 2023-03-30
 draft: false
 category: arts
-image: https://picsum.photos/seed/cows/500
+image: /images/projects/earths-last-children/IMG_9512.JPG
 gallery: earths-last-children
 ---
 # Earth's Last Children

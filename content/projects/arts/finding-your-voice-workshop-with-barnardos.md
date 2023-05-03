@@ -3,7 +3,7 @@ title: Finding Your Voice Workshop with Barnardos
 date: 2023-03-30
 draft: false
 category: arts
-image: https://picsum.photos/seed/plums/500
+image: /images/projects/finding-your-voice/PXL_20220124_192404645-min.jpg
 gallery: finding-your-voice
 ---
 # Finding Your Voice Workshop with Barnardos

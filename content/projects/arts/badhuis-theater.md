@@ -3,7 +3,7 @@ title: Badhuis Theater
 date: 2023-03-30
 draft: false
 category: arts
-image: https://picsum.photos/seed/bees/500
+image: /images/projects/badhuis-theater/PXL_20220803_193558280-min.jpg
 gallery: badhuis-theater
 ---
 # Badhuis Theater

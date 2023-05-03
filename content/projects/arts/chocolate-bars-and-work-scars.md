@@ -3,7 +3,7 @@ title: Chocolate Bars and Work Scars
 date: 2023-03-30
 draft: false
 category: arts
-image: https://picsum.photos/seed/fruit/500
+image: /images/projects/chocolate-bars/IMG_1870-min.JPG
 gallery: chocolate-bars
 ---
 # Chocolate Bars and Work Scars

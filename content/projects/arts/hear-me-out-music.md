@@ -3,7 +3,7 @@ title: Hear Me Out Music
 date: 2023-03-30
 draft: false
 category: arts
-image: https://picsum.photos/seed/grapes/500
+image: /images/projects/hear-me-out-music/Screenshot_2023-05-02.jpg
 gallery: hear-me-out-music
 ---
 # Hear Me Out Music
