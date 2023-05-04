@@ -1,8 +1,8 @@
 module.exports = {
 	"title": "Natasha Pavey",
-	"url": "https://example.com/",
+	"url": "https://natashapavey.uk",
 	"language": "en",
-	"description": "This is Natashas Website.",
+	"description": "Natasha Pavey (she/her) is an early career theatre maker, creative producer and climate justice activist from the South West.",
 	"author": {
 		"name": "Your Name Here",
 		"email": "youremailaddress@example.com",
