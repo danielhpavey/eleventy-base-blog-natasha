@@ -8,8 +8,6 @@ gallery: hear-me-out-music
 ---
 # Hear Me Out Music
 
-I worked at Hear Me Out Music, a music and migrant justice charity based in Shoreditch on a five month placement between January and May 2023. 
+Between January and May 2023, I completed a five month work placement at Hear Me Out Music. Hear Me Out (previously Music in Detention), are a music and migrant justice charity based in Shoreditch. 
 
-They take music into UK immigration detention facilities and platform artists with lived experience of immigration detention. I worked on artist support being a liaison between musicians and the organisation, working with refugees who have unsettled status in a variety of environments. 
-
-I’m also grateful to have been involved with the planning and evaluation of the Hear Me Out band gig at Amersham in South East London in January 2023, a brilliant evening of original music and raising awareness of immigration detention. 
+Hear Me Out take music into UK immigration detention facilities and platform artists with lived experience of immigration detention. I got an insight into a variety of roles across the organisation such as assisting with artist support, being a liaison between participants and staff, working with migrants who have unsettled status in a variety of environments. I also supported the planning and evaluation of the Hear Me Out band gig in January 2023 at Amersham Arms in South East London. A brilliant evening of original music and raising awareness of immigration detention. 

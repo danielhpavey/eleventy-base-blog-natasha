@@ -14,7 +14,7 @@ It started with two of us in our college cafe and grew to produce the largest pe
 
 I coordinated the social media and communications for the group, liaised with local organisations, community groups and police, outreached across the county building a team of conscientious teen organisers. 
 
-I regularly spoke to press, MPs and local politicians, facilitated meetings, fundraised for equipment and learnt many skills in de-escalation, thinking on the spot, delegation, decision making, time management, leadership and feeling the fear but doing it anyway! This will always be one of my proudest achievements and being thrown into a whirlwind after one determined 'yes' over coffee arguably taught me everything I know. Coined ‘Exeter’s Greta Thurnberg’, 
+I regularly spoke to press, MPs and local politicians, facilitated meetings, fundraised for equipment and learnt many skills in de-escalation, thinking on the spot, delegation, decision making, time management, leadership and feeling the fear but doing it anyway! This will always be one of my proudest achievements and being thrown into a whirlwind after one determined 'yes' over coffee arguably taught me everything I know.
 
 I began my journey as a climate justice activist with Fridays For Future and I haven’t stopped since!
 
