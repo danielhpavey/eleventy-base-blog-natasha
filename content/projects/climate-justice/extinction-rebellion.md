@@ -5,7 +5,7 @@ draft: false
 category: climate-justice
 image: /img/Screenshot_20200830-181045.jpeg
 ---
-# Extinction Rebellion (G7, COP, Exeter Quay, Cleaners, Freedom fighters)
+# Extinction Rebellion
 
 I have been involved with Extinction Rebellion in my hometown of Exeter since 2018. From supporting with social media and actions to founding a youth branch and new affinity groups, Extinction Rebellion has formed the foundation of my grassroots organising.
 

@@ -18,14 +18,14 @@ I regularly spoke to press, MPs and local politicians, facilitated meetings, fun
 
 I began my journey as a climate justice activist with Fridays For Future and I haven’t stopped since!
 
-<https://twitter.com/natashapaveyuk/status/1116767641413271552?s=20>
+[School Strike for Climate Change: There is No Plan-et B | Grow Media | February 2019](https://grow-media.co.uk/top-stories/school-strike-for-climate-change-greta-thunberg-grow-talk/)
 
-<http://dreadnoughtsouthwest.org.uk/hear_the_stories/natasha-pavey/>
+[School Strike for Climate Change in Exeter | Exeter Daily | February 2019](https://www.theexeterdaily.co.uk/news/student-life/school-strike-climate-change-exeter)]
 
-<https://www.devonlive.com/news/devon-news/heres-over-100-students-were-2752989>
+[Another Climate Change protest by students planned for Exeter this week | Devon Live | April 2019](https://www.devonlive.com/news/devon-news/another-climate-change-protest-students-2737320)
 
-<https://www.devonlive.com/news/devon-news/another-climate-change-protest-students-2737320>
+[Here’s why over 100 students were protesting in Exeter city centre today | Devon Live | April 2019](https://www.devonlive.com/news/devon-news/heres-over-100-students-were-2752989)
 
-<https://www.theexeterdaily.co.uk/news/student-life/school-strike-climate-change-exeter>
+[Interview at Devon County Council | ITV West Country | April 2019](https://twitter.com/natashapaveyuk/status/1116767641413271552?s=20)
 
-<https://grow-media.co.uk/top-stories/school-strike-for-climate-change-greta-thunberg-grow-talk/>
+[Rebellious Sounds Archive | Dreadnought South West | June 2019](https://twitter.com/natashapaveyuk/status/1116767641413271552?s=20)
