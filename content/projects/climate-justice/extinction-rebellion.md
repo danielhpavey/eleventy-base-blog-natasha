@@ -3,8 +3,9 @@ title: Extinction Rebellion
 date: 2023-03-30
 draft: false
 category: climate-justice
-image: /img/Screenshot_20200830-181045.jpeg
+image: https://res.cloudinary.com/dornmmmtw/image/upload/v1684851759/extinction-rebellion/Screenshot_20200830-181045_drdtin.jpg
 gallery: extinction-rebellion
+images: ["https://res.cloudinary.com/dornmmmtw/image/upload/v1684851760/extinction-rebellion/FB_IMG_1598945725542_qgyp4l.jpg", "https://res.cloudinary.com/dornmmmtw/image/upload/v1684851760/extinction-rebellion/FB_IMG_1598888433625_qoafde.jpg"]
 ---
 # Extinction Rebellion
 
