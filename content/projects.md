@@ -9,7 +9,7 @@ eleventyNavigation:
 <div class="grid grid-cols-1 md:grid-cols-2 grid-rows-2 gap-4 grid-flow-row	">
     <div class="relative">
       <a href="/projects/climate-justice-education-activism">
-      {% image './img/projects/fridays-for-future/D1tt4_AXQAghfZo.jpeg', "" %}
+      {% image './img/D1tt4_AXQAghfZo.jpeg', "" %}
       <h2 class="absolute bottom-0 h-24 inset-x-0 backdrop-blur-xl p-2 text-center text-white flex flex-column items-center">
         <span class="inline-block text-center w-full">Climate Justice and Education Activism</span>
         </h2>
