@@ -4,6 +4,7 @@ date: 2023-03-30
 draft: false
 category: climate-justice
 image: /img/Screenshot_20200830-181045.jpeg
+gallery: extinction-rebellion
 ---
 # Extinction Rebellion
 
