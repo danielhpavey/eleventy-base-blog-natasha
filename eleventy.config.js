@@ -7,6 +7,14 @@ const pluginBundle = require("@11ty/eleventy-plugin-bundle");
 const pluginNavigation = require("@11ty/eleventy-navigation");
 const { EleventyHtmlBasePlugin } = require("@11ty/eleventy");
 const glob = require("glob-promise");
+const cloudinary = require('cloudinary').v2;
+
+// Configure Cloudinary with your credentials
+cloudinary.config({
+	cloud_name: 'dornmmmtw',
+	api_key: '294982579388157',
+	api_secret: 'mJxEL9qGgbmWpoH-XXUNWNUvEmM'
+  });
 
 
 module.exports = function(eleventyConfig) {
@@ -129,7 +137,18 @@ module.exports = function(eleventyConfig) {
 		return collection;
 	});
 
-
+	eleventyConfig.addShortcode('cloudinaryImages', async (folder) => {
+		// Use the Cloudinary API to fetch the images from the specified folder
+		const response = await cloudinary.search
+		  .expression(`folder:${folder}`)
+		  .execute();
+	
+		// Extract the URLs of the images from the response
+		const images = response.resources.map((resource) => resource.secure_url);
+	
+		// Return the array of image URLs
+		return JSON(images);
+	  });
 
 	return {
 		// Control which files Eleventy will process
@@ -168,3 +187,6 @@ module.exports = function(eleventyConfig) {
 		pathPrefix: "/",
 	};
 };
+
+
+

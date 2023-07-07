@@ -4,35 +4,6 @@ layout: layouts/base.njk
 
 {{ content | safe }}
 
-<div class="mx-auto">
-  <div class=" flex flex-wrap">
-  {% for image in collections["project-images"] %}
-    {% if gallery in image.path %}
-      <div class="flex md:w-1/3 flex-wrap">
-      <div class="w-full p-1 aspect-square">
-        <img
-          alt="gallery"
-          class="block h-full w-full rounded-lg object-cover object-center "
-          src="{{image.path}}" loading="lazy"/>
-      </div>
-    </div>
-    {% endif %}
-{% endfor %}
-  </div>
-</div>
 
-<div class="mx-auto">
-  <div class=" flex flex-wrap">
-  {% for image in images %}
-      <div class="flex md:w-1/3 flex-wrap">
-      <div class="w-full p-1 aspect-square">
-        <img
-          alt="gallery"
-          class="block h-full w-full rounded-lg object-cover object-center "
-          src="{{image}}" loading="lazy"/>
-      </div>
-    </div>
-{% endfor %}
-  </div>
-</div>
+{% cloudinaryImages 'extinction-rebellion' %}
 
