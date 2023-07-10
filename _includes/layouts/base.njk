@@ -59,8 +59,8 @@
 			{#- Read more about `eleventy-navigation` at https://www.11ty.dev/docs/plugins/navigation/ #}
 
 		</header>
-
-		{% if page.url.slice(1, 9) == 'projects' %}
+		{% console.log(page.url.slice(1, 9)) %}
+		{% if page.url.slice(1, 9) == 'portfolio' %}
 		{% elif page.url.slice(1, 6) == 'about' %}
 		{% image "./img/natasha-pavey-3.jpg", title or metadata.title  %}
 		{% else %}
