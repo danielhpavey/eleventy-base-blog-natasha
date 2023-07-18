@@ -2,9 +2,10 @@
 title: Arts Admin Another Route
 date: 2023-03-30
 draft: false
-category: portfolio
+category: arts
 image: /images/projects/arts-admin/Screenshot_2023-05-02.jpg
 gallery: arts-admin
+role: Programme Assistant
 ---
 # Arts Admin Another Route
 

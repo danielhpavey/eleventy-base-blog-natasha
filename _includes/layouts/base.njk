@@ -59,12 +59,11 @@
 			{#- Read more about `eleventy-navigation` at https://www.11ty.dev/docs/plugins/navigation/ #}
 
 		</header>
-		{% console.log(page.url.slice(1, 9)) %}
 		{% if page.url.slice(1, 9) == 'portfolio' %}
 		{% elif page.url.slice(1, 6) == 'about' %}
-		{% image "./img/natasha-pavey-3.jpg", title or metadata.title  %}
+		{% image "./content/img/natasha-pavey-3.jpg", title or metadata.title  %}
 		{% else %}
-		{% image "./img/natasha-pavey.jpg", title or metadata.title  %}
+		{% image "./content/img/natasha-pavey.jpg", title or metadata.title  %}
 		{% endif %}
 
 		<main id="skip" class="p-6 flow max-w-4xl mx-auto">

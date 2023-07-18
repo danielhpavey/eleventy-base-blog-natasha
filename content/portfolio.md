@@ -8,7 +8,7 @@ eleventyNavigation:
 		<a href="{{ post.url }}" >{% if post.data.image %}<img src="{{ post.data.image }}" class="object-cover h-full w-full aspect-square" loading="lazy" />{% else %}{% endif %}
 		<h2 class="absolute bottom-0 h-24 inset-x-0 backdrop-blur-xl p-2 text-center text-white flex flex-column items-center">
 		<span class="inline-block text-center w-full">
-			{{ post.data.title }}
+			{{ post.data.title }} - {{ post.data.role }}
 		<span>
 		</h2>
 		</a>
