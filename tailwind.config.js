@@ -5,7 +5,7 @@ module.exports = {
     extend: {
       fontFamily: {
         'inter': [ 'Inter', 'sans-serif'],
-        'lily' : ['Lily Script One', 'cursive']
+        'lily' : ['Beth Ellen', 'cursive']
       },
     },
   },

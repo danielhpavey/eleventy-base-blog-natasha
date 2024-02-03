@@ -1,7 +1,7 @@
 ---
 layout: layouts/home.njk
 eleventyNavigation:
-  key: Projects
+  key: Arts
   order: 3
 ---
 # Projects

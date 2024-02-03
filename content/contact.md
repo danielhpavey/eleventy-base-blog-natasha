@@ -1,7 +1,7 @@
 ---
 layout: layouts/home.njk
 eleventyNavigation:
-  key: Contact Me
+  key: Contact
   order: 99
 ---
 # Contact Me
