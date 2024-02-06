@@ -2,10 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
-.flow > * + * {
+/* .flow > * + * {
   margin-top: var(--flow-space, 1em);
 }
-
+ */
 body {
   overflow-x: hidden;
   position: relative;
@@ -18,9 +18,8 @@ label .menu {
   z-index: 100;
   width: 42px;
   height: 42px;
-  background: #fff;
   border-radius: 50% 50% 50% 50%;
-  transition: .5s ease-in-out;
+  transition: .3s ease-in-out;
   box-shadow: 0 0 0 0 #FFF, 0 0 0 0 #FFF;
   cursor: pointer;
 }
@@ -31,7 +30,7 @@ label .hamburger {
   right: 12px;
   width: 30px;
   height: 2px;
-  background: #000;
+  background: #fff;
   display: block;
   transform-origin: center;
   transition: .5s ease-in-out;
@@ -44,7 +43,7 @@ label .hamburger:after, label .hamburger:before {
   display: block;
   width: 100%;
   height: 100%;
-  background: #000;
+  background: #fff;
 }
 
 label .hamburger:before {
@@ -64,19 +63,23 @@ label input:checked + .menu {
   width: 100vw;
   height:100vw;
   border-radius: 0;
+  background: #fff;
 }
 
 label input:checked + .menu .hamburger {
   transform: rotate(45deg);
+  background:#000;
 }
 
 label input:checked + .menu .hamburger:after {
   transform: rotate(90deg);
+  background:#000;
   bottom: 0;
 }
 
 label input:checked + .menu .hamburger:before {
   transform: rotate(90deg);
+  background:#000;
   top: 0;
 }
 
@@ -128,4 +131,12 @@ p a {
 
 main h1 {
   @apply text-3xl font-bold text-center;
+}
+
+main p:nth-child(even){
+  background: #fada5e;
+}
+
+p {
+  @apply p-6
 }
