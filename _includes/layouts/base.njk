@@ -51,7 +51,7 @@
 			</ul>
 			</label>
 		</nav>
-		<div class="relative">
+		<div class="relative max-h-screen">
 		{% if page.url.slice(1, 9) == 'projects' %}
 		{% elif page.url.slice(1, 6) == 'about' %}
 		{% image "./img/natasha-pavey-3.jpg", title or metadata.title  %}
@@ -62,13 +62,13 @@
 		<h1 class="mx-auto text-white w-full">
 			<a href="/" class="home-link font-lily text-5xl block mx-auto text-center pb-6 text-white">{{ metadata.title }}</a>
 			</h1>
-		<h2 class="mx-auto text-white text-center pb-6">Some text is  gonna go here</h2>
+		<h2 class="mx-auto text-white text-center pb-6">Theatre Maker, Creative Producer and Climate Justice Activist</h2>
 		</div>
 			{#- Read more about `eleventy-navigation` at https://www.11ty.dev/docs/plugins/navigation/ #}
 		</div>
 		</header>
 
-		<main id="skip" class=" flow max-w-4xl mx-auto">
+		<main id="skip" class=" flow max-w-4xl mx-auto pt-6">
 			{{ content | safe }}
 		</main>
 

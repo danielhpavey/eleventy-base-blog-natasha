@@ -8,7 +8,7 @@ numberOfLatestPostsToShow: 3
 
 Natasha Pavey (she/her) is an early career theatre maker, creative
 producer and climate justice activist
-from Exeter. 
+from the South West. 
 
 She has been organising
 within the climate movement from a
