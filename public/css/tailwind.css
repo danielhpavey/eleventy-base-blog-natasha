@@ -114,7 +114,8 @@ label a {
 header img {
   max-height: 90vh;
   object-fit: cover;
-  object-postion: center, top;
+  object-position: center top;
+  width:100%;
 }
 
 @media (min-width: 768px) {
