@@ -3,8 +3,9 @@ layout: layouts/base.njk
 eleventyNavigation:
   key: About
   order: 2
+headerImage: ./img/about-page-header.jpg
+title: About
 ---
-# About Me
 
 I am a **creative producer, theatre maker** and **climate justice campaigner**. I am an enthusiastic, dedicated early career producer with a background in performing arts but I have recently found a love for producing and programming. I am currently in my final year studying BA (Hons) Theatre & Social Change at Rose Bruford College in London but I am originally based in the South West.
 

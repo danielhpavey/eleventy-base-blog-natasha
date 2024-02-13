@@ -4,6 +4,9 @@ eleventyNavigation:
   key: Home
   order: 1
 numberOfLatestPostsToShow: 3
+headerImage: './img/natasha-pavey-site-v2-header.jpg'
+title: 'Natasha Pavey'
+subTitle: 'Theatre Maker, Creative Producer and Climate Justice Activist'
 ---
 
 Natasha Pavey (she/her) is an early career theatre maker, creative

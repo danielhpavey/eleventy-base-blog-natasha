@@ -39,7 +39,7 @@
 	</head>
 	<body class="text-2xl font-inter text-slate-600 bg-slate-50">
 	
-		<header class="mb-6 max-h-screen">
+		<header class="mb-6">
 
 		<nav class="">
 			<label>
@@ -52,17 +52,14 @@
 			</label>
 		</nav>
 		<div class="relative max-h-screen">
-		{% if page.url.slice(1, 9) == 'projects' %}
-		{% elif page.url.slice(1, 6) == 'about' %}
-		{% image "./img/natasha-pavey-3.jpg", title or metadata.title  %}
-		{% else %}
-		{% image "./img/natasha-pavey-site-v2-header.jpg", title or metadata.title  %}
-		{% endif %}			
+		{%- if (headerImage) -%}
+		{% image headerImage, title or metadata.title %}
+		{%- endif %}
 		<div class="absolute bottom-0 w-full text-white>
 		<h1 class="mx-auto text-white w-full">
-			<a href="/" class="home-link font-lily text-5xl block mx-auto text-center pb-6 text-white">{{ metadata.title }}</a>
+			<a href="/" class="home-link font-lily text-5xl block mx-auto text-center pb-6 text-white">{{ title }}</a>
 			</h1>
-		<h2 class="mx-auto text-white text-center pb-6">Theatre Maker, Creative Producer and Climate Justice Activist</h2>
+		<h2 class="mx-auto text-white text-center pb-6">{{ subTitle }}</h2>
 		</div>
 			{#- Read more about `eleventy-navigation` at https://www.11ty.dev/docs/plugins/navigation/ #}
 		</div>
