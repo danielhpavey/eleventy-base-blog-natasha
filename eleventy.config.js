@@ -8,6 +8,8 @@ const pluginNavigation = require("@11ty/eleventy-navigation");
 const { EleventyHtmlBasePlugin } = require("@11ty/eleventy");
 const glob = require("glob-promise");
 
+const fg = require('fast-glob');
+const activismImages = fg.sync(['/public/images/activism/*', '!**/_site'], { onlyFiles: true });
 
 module.exports = function(eleventyConfig) {
 	// Copy the contents of the `public` folder to the output folder
@@ -19,6 +21,20 @@ module.exports = function(eleventyConfig) {
 
 	eleventyConfig.addPassthroughCopy("admin/");
 
+
+	 //Create collection of gallery image
+
+
+	  eleventyConfig.addCollection('activism-images', async collectionApi => {
+		let files = await glob('./public/images/activism/**/*.*');
+	
+		let collection = files.map(i => {
+			return {
+				path: i.replace("./public", "")
+			}
+		});
+		return collection;
+	});
 
 	// Run Eleventy when these files change:
 	// https://www.11ty.dev/docs/watch-serve/#add-your-own-watch-targets

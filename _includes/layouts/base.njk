@@ -32,14 +32,14 @@
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter&family=Lily+Script+One&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Beth+Ellen&display=swap" rel="stylesheet">
 
 		{#- Render the CSS bundle using Inlined CSS (for the fastest site performance in production) #}
  		 <link href="/css/styles.css" rel="stylesheet">
 	</head>
 	<body class="text-2xl font-inter text-slate-600 bg-slate-50">
 	
-		<header class="px-6 mb-6">
+		<header class="">
 
 		<nav class="">
 			<label>
@@ -51,23 +51,21 @@
 			</ul>
 			</label>
 		</nav>
-
-			<h1 class="max-w-4xl mx-auto">
-			<a href="/" class="home-link font-lily text-8xl block mx-auto text-center pt-6">{{ metadata.title }}</a>
+		<div class="relative max-h-screen">
+		{%- if (headerImage) -%}
+		{% image headerImage, title or metadata.title %}
+		{%- endif %}
+		<div class="absolute bottom-0 w-full text-white>
+		<h1 class="mx-auto text-white w-full">
+			<a href="/" class="home-link font-lily text-5xl block mx-auto text-center pb-6 text-white">{{ title }}</a>
 			</h1>
-
+		<h2 class="mx-auto text-white text-center pb-6">{{ subTitle }}</h2>
+		</div>
 			{#- Read more about `eleventy-navigation` at https://www.11ty.dev/docs/plugins/navigation/ #}
-
+		</div>
 		</header>
 
-		{% if page.url.slice(1, 9) == 'projects' %}
-		{% elif page.url.slice(1, 6) == 'about' %}
-		{% image "./img/natasha-pavey-3.jpg", title or metadata.title  %}
-		{% else %}
-		{% image "./img/natasha-pavey.jpg", title or metadata.title  %}
-		{% endif %}
-
-		<main id="skip" class="p-6 flow max-w-4xl mx-auto">
+		<main id="skip" class=" flow max-w-4xl mx-auto pt-6">
 			{{ content | safe }}
 		</main>
 

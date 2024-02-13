@@ -4,12 +4,32 @@ eleventyNavigation:
   key: Home
   order: 1
 numberOfLatestPostsToShow: 3
+headerImage: './img/natasha-pavey-site-v2-header.jpg'
+title: 'Natasha Pavey'
+subTitle: 'Theatre Maker, Creative Producer and Climate Justice Activist'
 ---
 
-Natasha Pavey (she/her) is an early career theatre maker, creative producer and climate justice activist from the South West. 
+Natasha Pavey (she/her) is an early career theatre maker, creative
+producer and climate justice activist
+from the South West. 
 
-She has been organising within the climate movement from a young age, from confronting politicians about the need for a Green New Deal to leading a local movement of young people to strike from school. 
+She has been organising
+within the climate movement from a
+young age, from confronting
+politicians about the need for a Green
+New Deal to leading a local
+movement of young people to strike
+from school. 
 
-In her creative work, she strives to combine both her climate activism and her training in theatre as a tool for change. 
+In her creative work, she
+strives to combine both her climate
+activism and her love for theatre as a
+tool for change and to encourage the
+creative industries to take
+responsibility for their part to play in
+the climate emergency. 
 
-She is soon to graduate from BA (Hons) Theatre and Social Change at Rose Bruford College of Theatre and Performance in London.
+She is
+currently the **Artist for Change:
+Climate Emergency** at the Theatre
+Royal Plymouth.
