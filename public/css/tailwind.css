@@ -140,9 +140,9 @@ main h1 {
   @apply text-3xl font-bold text-center;
 }
 
-/* main p:nth-child(even){
-  background: #fada5e;
-} */
+main p:nth-child(even){
+  background: #E6E6FA;
+} 
 
 p {
   @apply p-6
