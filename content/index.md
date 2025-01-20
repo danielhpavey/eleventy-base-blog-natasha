@@ -9,27 +9,11 @@ title: 'Natasha Pavey'
 subTitle: 'Theatre Maker, Creative Producer and Climate Justice Activist'
 ---
 
-Natasha Pavey (she/her) is an early career theatre maker, creative
-producer and climate justice activist
-from the South West. 
+Natasha Pavey (she/her) is a theatre maker, creative producer, and climate justice activist from the South West.
 
-She has been organising
-within the climate movement from a
-young age, from confronting
-politicians about the need for a Green
-New Deal to leading a local
-movement of young people to strike
-from school. 
+At age 16, she co-founded Fridays for Future Exeter and has spent the past six years driving climate action, organising with groups across the climate movement - from confronting politicians on the need for a Green New Deal to creating spaces for young people to navigate climate anxiety.
 
-In her creative work, she
-strives to combine both her climate
-activism and her love for theatre as a
-tool for change and to encourage the
-creative industries to take
-responsibility for their part to play in
-the climate emergency. 
+Natasha blends her passion for theatre and activism to inspire change, pushing the creative industries to take responsibility for their role in the climate crisis through networks like Theatre Green Captains UK and Culture Declares.
 
-She is
-currently the **Artist for Change:
-Climate Emergency** at the Theatre
-Royal Plymouth.
+Her recent wins include persuading Theatre Royal Plymouth, the UK’s largest regional producing theatre, to go oil-free sponsorship free and declare a Climate Emergency, and leading the charge for Rose Bruford to become the first specialist drama school in the UK to reject fossil fuel funding.
+
